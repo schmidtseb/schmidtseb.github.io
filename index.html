@@ -18,8 +18,8 @@
       // Read the value of the "key" parameter from the URL
       const urlParams = new URLSearchParams(window.location.search);
       const key = urlParams.get('key');
-      console.log(urlParams);
-      console.log(key);
+      const group = urlParams.get('group');
+      const id = urlParams.get('id');
       
       // Redirect to the URL with the key value included
       const redirectUrl = `https://portal.zentrale-pruefstelle-praevention.de/portfolio/gkv-sv/kursdetail/${key}`;
@@ -28,6 +28,8 @@
 
       gtag('event', 'zpp', {
           'key': `${key}`
+          'group': `${group}`,
+          'id': `${id}`
       });
     </script>
   </body>
