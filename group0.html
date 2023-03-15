@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7T9GJMXCP9"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-7T9GJMXCP9');
+	</script>
+  </head>
+  <body>
+    <script>
+      // Read the value of the "key" parameter from the URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const key = urlParams.get('key');
+      const id = urlParams.get('id');
+      
+      // Redirect to the URL with the key value included
+      const redirectUrl = `https://portal.zentrale-pruefstelle-praevention.de/portfolio/gkv-sv/kursdetail/${key}`;
+      console.log(redirectUrl);
+
+      gtag('event', 'zpp', {
+          'key': `${key}`,
+          'id': `${id}`
+      });
+
+      window.location.replace(redirectUrl);
+    </script>
+  </body>
+</html>
+
