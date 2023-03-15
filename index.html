@@ -25,6 +25,10 @@
       const redirectUrl = `https://portal.zentrale-pruefstelle-praevention.de/portfolio/gkv-sv/kursdetail/${key}`;
       console.log(redirectUrl);
       // window.location.replace(redirectUrl);
+
+      gtag('event', 'zpp', {
+          'key': '${key},
+      });
     </script>
   </body>
 </html>
