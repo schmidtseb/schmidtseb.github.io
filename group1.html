@@ -18,18 +18,18 @@
       // Read the value of the "key" parameter from the URL
       const urlParams = new URLSearchParams(window.location.search);
       const key = urlParams.get('key');
-      const id = urlParams.get('id');
-      
-      // Redirect to the URL with the key value included
-      const redirectUrl = `https://portal.zentrale-pruefstelle-praevention.de/portfolio/gkv-sv/kursdetail/${key}`;
-      console.log(redirectUrl);
-
+      const course_id = urlParams.get('course_id');
+ 
       gtag('event', 'zpp', {
           'key': `${key}`,
-          'id': `${id}`
+          'course_id': `${course_id}`
       });
 
-      window.location.replace(redirectUrl);
+      // Redirect to the URL with the key value included
+      if (key != null) {
+          const redirectUrl = `https://portal.zentrale-pruefstelle-praevention.de/portfolio/gkv-sv/kursdetail/${key}`;
+          window.location.replace(redirectUrl);
+      }
     </script>
   </body>
 </html>
