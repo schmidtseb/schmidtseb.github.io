@@ -1,0 +1,27 @@
+[
+  {
+    "title": {
+      "de": "Am Fluss",
+      "en": "At the river"
+    },
+    "subtitle": {
+      "de": "Mache es dir am Wasser gemütlich",
+      "en": "Relax to the flow of the water"
+    },
+    "imagePath": "icons/underwater.svg",
+    "videoPath": "videos/river.mp4"
+  },
+  {
+    "title": {
+      "de": "Am Strand",
+      "en": "At the beach"
+    },
+    "subtitle": {
+      "de": "Lege dich in den Sand und genieße die Sonne",
+      "en": "Lay down in the warm sand and appreciate the sun"
+    },
+    "imagePath": "icons/beach.svg",
+    "videoPath": "videos/beach.mp4"
+  }
+]
+
