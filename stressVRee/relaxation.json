@@ -8,7 +8,7 @@
       "de": "Mache es dir am Wasser gemütlich",
       "en": "Relax to the flow of the water"
     },
-    "imagePath": "icons/underwater.svg",
+    "imagePath": "icons/underwater.png",
     "videoPath": "videos/river.mp4"
   },
   {
@@ -20,7 +20,7 @@
       "de": "Lege dich in den Sand und genieße die Sonne",
       "en": "Lay down in the warm sand and appreciate the sun"
     },
-    "imagePath": "icons/beach.svg",
+    "imagePath": "icons/beach.png",
     "videoPath": "videos/beach.mp4"
   }
 ]
