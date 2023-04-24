@@ -22,6 +22,18 @@
     },
     "imagePath": "icons/beach.png",
     "videoPath": "videos/beach.mp4"
+  },
+  {
+    "title": {
+      "de": "Im Wald",
+      "en": "In the forest"
+    },
+    "subtitle": {
+      "de": "Setze dich in den Wald und lausche dem rauschenden Fluss",
+      "en": "Take a seat in the forest and listen to the fascinating river"
+    },
+    "imagePath": "icons/forest.png",
+    "videoPath": "videos/forest.mp4"
   }
 ]
 
